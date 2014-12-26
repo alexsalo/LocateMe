@@ -46,7 +46,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
             mapView.centerCoordinate = location.coordinate
             // And update the track on the map
             historicalPoints.append(location.coordinate)
-            mapView.updateMapWithPoints(historicalPoints)
+            updateMapWithPoints(historicalPoints)
         }
     }
     
