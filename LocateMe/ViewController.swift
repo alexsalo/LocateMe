@@ -64,7 +64,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDele
         mapView.removeOverlay(oldTrack)
         
         // Zoom the map
-        mapView.visibleMapRect = mapView.mapRectThatFits(routeTrack.boundingMapRect, edgePadding: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
+        //mapView.visibleMapRect = mapView.mapRectThatFits(routeTrack.boundingMapRect, edgePadding: UIEdgeInsets(top: 10, left: 10, bottom: 10, right: 10))
     }
     
 //MKMapViewDelegate Methods
